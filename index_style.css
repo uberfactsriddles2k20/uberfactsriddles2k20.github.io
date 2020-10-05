@@ -1,0 +1,39 @@
+#header {
+	background-color: red;
+}
+
+#body {
+	background-color: cyan;
+	background-image: url("assets/thinking.GIF");
+}
+
+#description{
+	background-color: yellow;
+	color: red;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#arabic{
+	background-color: orange;
+	color: black;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#posts{
+	margin:auto;
+	background-color:black;
+	width: 50%;
+	height: 1000px;
+	position: center;
+}
+
+#recent-posts-text{
+	margin: auto;
+	width: 60%;
+	height: 50px;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+}
