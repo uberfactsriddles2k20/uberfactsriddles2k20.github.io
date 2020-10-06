@@ -6,13 +6,6 @@
 		
 		<!-- favicon -->
 		<link rel="icon" type="image/jpg" href="assets/logo.JPG" >
-		
-		<!-- music -->
-		<audio autoplay loop>
-			<source src="assetss/music.ogg" type="audio/ogg">
-			<source src="assetss/music.wav" type="audio/wav">
-			<source src="assets/music.mp3" type="audio/mpeg">
-		</audio>
 	</head>
 	
 	<body id="body">
@@ -24,8 +17,24 @@
 		<p id="arabic"> صفحة الحقائق والألغاز الرسمية لأوبر </p>
 		
 		<div>
-			<img src="assets/smileyface.gif" alt="happy">
-			<img src="assets/camel.gif" alt="camel funny">
+			<img id="gif" src="assets/smileyface.gif" alt="happy">
+			<img id="gif" src="assets/camel.gif" alt="camel funny">
+			<img id="gif" src="assets/eyes.gif" alt="big eyes yes">
+			
+			<div>
+				<img id="download-button" src="assets/download-button1.gif" alt="FREE DOWNLOAD">
+				<img id="download-button" src="assets/download-button2.gif" alt="FREE DOWNLOAD">
+			</div>
+			
+			<div id="music-box">
+				<!-- music -->
+				<audio controls autoplay loop id="music-control">
+					<source src="assets/music.mp3" type="audio/mpeg">
+				</audio>
+				
+				<div id="music-text">Press teh PLAY button for music?!!s استمع إلى موسيقى أوبر الجيدة هنا</div>
+			</div>
+			
 		</div>
 		
 		<div id="posts">
