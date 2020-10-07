@@ -1,3 +1,7 @@
+#full-page {
+	cursor: url('assets/cursor-med.png'), default;
+}
+
 #header {
 	background-color: red;
 }
