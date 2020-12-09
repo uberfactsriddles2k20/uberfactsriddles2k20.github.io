@@ -18,6 +18,14 @@
 	font-weight: bold;
 }
 
+#link{
+	background-color: yellow;
+	color: blue;
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
 #arabic{
 	background-color: orange;
 	color: black;
