@@ -19,12 +19,12 @@
   
   <body style="text-align: center; background-color: cyan; background-image: url('../assets/thinking.gif');">
     <canvas id="unity-canvas" style="width: 1600px; height: 900px; background: #314D79"></canvas>
-    <script src="Build/builds.loader.js"></script>
+    <script src="Build/build.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/builds.data",
-        frameworkUrl: "Build/builds.framework.js",
-        codeUrl: "Build/builds.wasm",
+        dataUrl: "Build/build.data",
+        frameworkUrl: "Build/build.framework.js",
+        codeUrl: "Build/build.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Uberfacts riddles 2k20",
         productName: "official uberfacts game!!!",
